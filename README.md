@@ -72,7 +72,7 @@ devtools::test()
 ══ Results ══════════════════════════════════════════════════════════════════════════
 [ FAIL 0 | WARN 0 | SKIP 0 | PASS 8 ]
 ```
-10. Since you write your functions and test that, now make it available to use with `load_all()`
+10. Since you wrote your functions and tested them, now make them available to use with `load_all()`
 ```
 load_all()
 ℹ Loading planPomodoroSession
@@ -91,13 +91,41 @@ cat(omodoro_productive_ratio(...))
 ```
 devtools::document()
 
-# It will create a empty man/ folder where you will create your documentation files
+# It will create an empty man/ folder where you will create your documentation files
 ```
 13. Let's create a documentation file
 ```
 file.create("man/pomodoro_productive_ratio.Rd")
 [1] TRUE
 
-# It will create the file in man/folder. Create each doumentation file for each function.
+# It will create the file in the man/folder. Create a documentation file for each function.
 ```
-Check out this resouce to know: How to write documentation file
+Check out this resource to know How to write a documentation file
+
+14. Load the documentation and check
+```
+devtools::document()
+```
+Check the specific documentation by using `?` before its name without its extension
+```
+?pomodoro_productive_ratio
+```
+It should render the documentation in the left panel (Please be careful)
+
+15. Till now, we have created our test cases, functions, and documentation. It's time to build it. (Converting full source code into a single file)
+  * We can use the `devtools::build` command in RStusio OR
+  * R CMD Build in other IDE
+15.1. Ensure your NAMESPACE file includes all function exports like this:
+
+```
+export(plan_pomodoro_session)
+export(plan_pomodoro_session_custom)
+export(pomodoro_productive_ratio)
+```
+15.2. After exporting the check and documentation, build check, build the package
+```
+devtools::build()
+
+# [1] "a-path-before-your-working-directory/planPomodoroSession_1.0.tar.gz"
+```
+**_Congratulations!_** You have built your R package. This command builds and saves a `tar.gz` file, a directory ahead of the current working directory.

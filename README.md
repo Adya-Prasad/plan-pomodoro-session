@@ -2,15 +2,22 @@
 ```bash
 install.packages("planPomodoroSession")
 ```
-Plan and generate a Pomodoro schedules for your task, in a single step.
+Plan and generate a Pomodoro schedule for your task, in a single step.
 
 This function helps break your total available time into Pomodoro intervals: alternating focus sessions and breaks.
 It is designed to be flexible and user-friendly by handling different input scenarios without throwing immediate errors.
 
 ## Steps To Create Your Own R Package
 
-1. 
-2. Install the `testthat` package, because we will use TDD, so we will write test cases first before the functions.
+1.
+2. Install `devtools` package
+```install.packages("devtools")
+```
+2. Load the `devtools` in your environment
+```
+library(devtools)
+```
+1. Install the `testthat` package, because we will use TDD, so we will write test cases first before the functions.
 ```bash
 install.packages("usethis")
 ```
@@ -23,7 +30,7 @@ library(usethis)
 use_testthat()
 # ✔ Setting active project to "/workspaces/125536957/r_pomodoro_project/project".
 # ✔ Creating tests/testthat/.
-# ✔ Writing tests/testthat.R.
+# ✔ Writing tests/testthat.R.  - It will contains test dependencies and functions details
 ```
 5. Now start creating your test case files for each function
 ```cmd

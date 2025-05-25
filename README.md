@@ -52,6 +52,7 @@ use_test("pomodoro_productive_ratio")
 devtools::test()
 # ℹ Testing planPomodoroSession
 # ✔ | F W  S  OK | Context
+# ...
 ```
 7. Now let's create the main function files to write our programs for the function. It will be created inside an `/R` folder. You can use the following command
 ```bash
@@ -63,5 +64,11 @@ use_r("pomodoro_productive_ratio")
 # And a pomodoro_productive_ratio.R will be created inside that R/ folder
 # Use this same command for multiple times for creating mutiple function's R with their name
 ```
-8. Now write the 
+8. Now write all functions correctly.
+9. It's time to test our function, run the `devtools::test()` again and it should PASS all test, if not or if it fail please check your function and test cases and debug them
+```
+devtools::test()
 
+══ Results ══════════════════════════════════════════════════════════════════════════
+[ FAIL 0 | WARN 0 | SKIP 0 | PASS 8 ]
+```

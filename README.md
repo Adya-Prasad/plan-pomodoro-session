@@ -32,5 +32,6 @@ use_test("pomodoro_productive_ratio")
 # ☐ Modify tests/testthat/test-pomodoro_productive_ratio.R.
 
 # Give the argument with the same file name that you will create for your function
-# This command will create a file in the testthat folder inside the tests directory and it wil add `test-` at front in your file
+# This command will create a file in the testthat folder inside the tests directory, and it will add `test-` at the front of your file name
+# Use the same command multiple times if you have multiple functions and files. Each file for each function's file
 ```

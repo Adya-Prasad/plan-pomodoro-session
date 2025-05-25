@@ -133,13 +133,10 @@ devtools::build()
 
 ### 19. Let's use and test your own created package
 19.1. Go to the directory where the `.tar.gz` file gets saved
-a. First, Install the saved tarball file
-```
-devtools::install(planPomodoroSession_1.0.tar.gz)
-
-# use the saved file name
-```
-OR you can also use following command if you have already installed `rtools`
+install the saved tarball file (make sure you have installed `rtools`)
 ```
 install.packages(path_to_file, repos = NULL, type="source")
+
+# For example:
+install.packages("D:/planPomodoroSession_1.0.tar.gz", repos = NULL, type = "source")
 ```

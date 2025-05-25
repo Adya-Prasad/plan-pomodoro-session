@@ -72,3 +72,20 @@ devtools::test()
 ══ Results ══════════════════════════════════════════════════════════════════════════
 [ FAIL 0 | WARN 0 | SKIP 0 | PASS 8 ]
 ```
+10. Since you write your functions and test that, now make it available to use with `load_all()`
+```
+load_all()
+ℹ Loading planPomodoroSession
+
+# It will show loading your package. It will show the name that you write for your package name in the DESCRIPTION file.
+```
+
+11. Now let's check if your created function is loaded and ready to use. You can use `cat` command to check
+```
+cat(omodoro_productive_ratio(...))
+
+# Use your function with correct arguments inside the cat, and your function should work accordingly.
+```
+
+12. Till now you created your test cases, functions, test your functions, and load & use your function, now you also need to create documentation manuals for your package. Documentations will be created inside the `man/` folder which stand for manuals. And documentation file should have `.Rd` extension and written in **Markup language**.
+```

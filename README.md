@@ -87,5 +87,17 @@ cat(omodoro_productive_ratio(...))
 # Use your function with correct arguments inside the cat, and your function should work accordingly.
 ```
 
-12. Till now you created your test cases, functions, test your functions, and load & use your function, now you also need to create documentation manuals for your package. Documentations will be created inside the `man/` folder which stand for manuals. And documentation file should have `.Rd` extension and written in **Markup language**.
+12. Till now you created your test cases, functions, test your functions, and load & use your function, now you also need to create documentation manuals for your package. Documentations will be created inside the `man/` folder which stand for manuals. And documentation file should have `.Rd` extension and be written in **Markup language**.
 ```
+devtools::document()
+
+# It will create a empty man/ folder where you will create your documentation files
+```
+13. Let's create a documentation file
+```
+file.create("man/pomodoro_productive_ratio.Rd")
+[1] TRUE
+
+# It will create the file in man/folder. Create each doumentation file for each function.
+```
+Check out this resouce to know: How to write documentation file

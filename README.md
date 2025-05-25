@@ -140,3 +140,12 @@ install.packages(path_to_file, repos = NULL, type="source")
 # For example:
 install.packages("D:/planPomodoroSession_1.0.tar.gz", repos = NULL, type = "source")
 ```
+19.2. After installation, let load and use your package (library). Open your console, first load your library and start using your libaray's functions
+```
+library(planPomodoroSession)
+```
+now use your function
+```
+plan_pomodoro_session("Problem Solving", 210)
+```
+_It should work, if you are facing any error or issue, please revise the steps correctly_

@@ -11,7 +11,8 @@ It is designed to be flexible and user-friendly by handling different input scen
 
 1.
 2. Install `devtools` package
-```install.packages("devtools")
+```
+install.packages("devtools")
 ```
 2. Load the `devtools` in your environment
 ```

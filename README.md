@@ -1,4 +1,5 @@
 # R Package: Plan Pomodoro Session
+
 ```bash
 install.packages("planPomodoroSession")
 ```
@@ -8,7 +9,7 @@ This function helps break your total available time into Pomodoro intervals: alt
 It is designed to be flexible and user-friendly by handling different input scenarios without throwing immediate errors.
 
 ## Steps To Create Your Own R Package
-
+First, create a folder for your package project in **RStudio** and set it as a _set as working directory_ where we will use all commands in the console
 1.
 2. Install `devtools` package
 ```

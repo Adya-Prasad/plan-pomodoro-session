@@ -1,0 +1,12 @@
+Package: planPomodoroSession
+Title: Plan Pomodoro Session
+Description: Plan and generate a Pomodoro schedules for your task, with custom options
+Version: 1.0
+Encoding: UTF-8
+Authors@R: person("Adya", "Prasad", email = "adyaprasad.info@gmail.com", role = c("aut", "cre", "cph"))
+License: MIT + file LICENSE
+Video:
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2

@@ -128,4 +128,18 @@ devtools::build()
 
 # [1] "a-path-before-your-working-directory/planPomodoroSession_1.0.tar.gz"
 ```
-**_Congratulations!_** You have built your R package. This command builds and saves a `tar.gz` file, a directory ahead of the current working directory.
+**_Congratulations!_** You have built your R package. This command builds and saves a `.tar.gz` (tarball) file, a directory ahead of the current working directory.
+
+
+### 19. Let's use and test your own created package
+19.1. Go to the directory where the `.tar.gz` file gets saved
+a. First, Install the saved tarball file
+```
+devtools::install(planPomodoroSession_1.0.tar.gz)
+
+# use the saved file name
+```
+OR you can also use following command if you have already installed `rtools`
+```
+install.packages(path_to_file, repos = NULL, type="source")
+```

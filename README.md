@@ -1,4 +1,4 @@
-# R Package: Plan Pomodoro Session
+# R Package: Plan Pomodoro Session ⏰ 
 
 ```bash
 install.packages("planPomodoroSession")
@@ -8,7 +8,7 @@ Plan and generate a Pomodoro schedule for your task in a single step.
 This function helps break your total available time into Pomodoro intervals: alternating focus sessions and breaks.
 It is designed to be flexible and user-friendly by handling different input scenarios without throwing immediate errors. _Read its documentation for detailed info_
 
-## Steps to Download and Use this package
+## Steps to Download and Use this package ⬇️
 
 1. **Step:** Download the package code
 
@@ -27,9 +27,9 @@ _After installation_, load and use the package (library).
 ```
 library(planPomodoroSession)
 ```
->Please be carefull with your working directory structure, do not change the directory where you install and load the package, it may cause error. If so kindly load the library again with `library(planPomodoroSession)`
+>🚨 Please be carefull with your working directory structure, do not change the directory where you install and load the package, it may cause error. If so kindly load the library again with `library(planPomodoroSession)`
 
-3. **Step:** Practical Usage
+3. **Step:** Practical Usage❣️
 ```
 plan_pomodoro_session("Problem Solving", 210)
 
@@ -39,7 +39,7 @@ pomodoro_productive_ratio("schedule.txt")
 ```
 
 ___
-## Detailed Guide and Steps To Create Your Own R Package
+## Detailed Guide and Steps To Create Your Own R Package 💼
 First, create a folder for your package project in **RStudio** and set it as a _set as working directory_ where we will use all commands in the console
 
 1. **Create a folder for your package and save it as a working directory.**

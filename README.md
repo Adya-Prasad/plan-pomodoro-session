@@ -12,7 +12,7 @@ It is designed to be flexible and user-friendly by handling different input scen
 
 1. **Step:** Download the package code
 
-Go to the left **Releases** column and click the `Plan Pomodoro Session R Package [Latest]` > and then click the (tarball) ` planPomodoroSession_1.0.tar.gz ` then download will start
+Go to the left **Releases** column and click the `Plan Pomodoro Session R Package [Latest]` > https://github.com/Adya-Prasad/plan-pomodoro-session/releases/tag/v1.0.0 and then click the (tarball) ` planPomodoroSession_1.0.tar.gz ` then download will start
 
 2. **Step:** Install and load the package in your environment
 
